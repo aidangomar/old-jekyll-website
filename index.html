@@ -1,13 +1,83 @@
----
-layout: page
-# Index page
----
-<div>
-  <h1>
-    Hello! I'm Aidan
-  </h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Aidan Gomar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+  <div class="profile">
+    <div class="profile-pic">
+      <img src="/img/me.jpg" />
+    </div>
+    <div  class="profile-text">
+      <h1>Aidan Gomar</h1>
+      <h3>Software Engineer</h3>
+    </div>
+  </div>
+
+  <div>
   <p>
-    Under construction as of 07/23 👷
-    <br>
-    <a href='https://aidangomar.github.io/assets/Aidan_Gomar_Resume.pdf'>Resume/CV</a></p>
-</div>
+    I'm currently studying Computer Science at <a href="https://www.mcgill.ca/" target="_blank">McGill University</a>.
+    I'm very interested in distributed systems and databases. 
+  </p>
+  <p>
+    In the past, I've worked as a Software Engineer Intern at <a href="https://www.amazon.com" target="_blank">Amazon</a>,
+    and Computer Field Technician at American Info Systems. 
+    I am a classical violist and enjoy playing string quartet music, reading philosophy, and playing poker.
+  </p>
+
+  <h2>Projects</h2>
+  <p>
+    <span class="pub">Container Orchestration Engine</span><br />
+    Built a distributed cloud from scratch hosted on a series of VMs complete with Docker for containerization,
+    HAProxy for L7 load balancing, FastAPI for API management, an elasticity manager, and a dashboard written in
+    React.js. <br />
+    <a class="button" href="" target="_blank">Code</a>
+  </p>
+  <p>
+    <span class="pub">Bitcask KV-Store</span><br />
+    Built a key-value store in Go by implementing 
+    the Bitcask storage engine used in Riak KV from scratch. <br />
+    <a class="button" href="https://github.com/aidangomar/bitcask-go" target="_blank">Code</a>
+  </p>
+
+  <p>
+    <span class="pub">ERC-721 Profit/Loss Tracker</span><br />
+    Developed an application which outputs data on the cumulative profit/loss from buying/selling ERC-721 tokens of
+    any valid Ethereum wallet address using Next.js with Infura/Web3.js. <br />
+    <a class="button" href="https://github.com/aidangomar/ERC-721-Tracker" target="_blank">Code</a>
+  </p>
+
+  <hr style="margin: 40px 0;">
+  <div class="profile">
+    <div class="profile-text">
+      <div class="social">
+        <a href="mailto:aidangomar@gmail.com" rel="noreferrer">
+          <img src="/img/social/mail.svg" id="in" alt="Mail" />
+        </a>
+        <a href="//github.com/aidangomar" rel="noreferrer">
+          <img src="/img/social/github.svg" id="gh" alt="GitHub" />
+        </a>
+        <a href="//www.linkedin.com/in/aidangomar/" rel="noreferrer">
+          <img src="/img/social/linkedin.svg" id="in" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4K0RYPN9X7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4K0RYPN9X7');
+  </script>
+
+  <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+</body>
+</html>
