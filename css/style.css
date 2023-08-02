@@ -104,8 +104,8 @@ a:hover {
   display:inline-block;
   text-transform:uppercase;
   text-decoration:none;
-  color:#000;
-  font-weight:600;
+  color:#0f73aa;
+  font-weight: 600;
   letter-spacing:1px;
   font-size:10px;
 }
@@ -137,7 +137,7 @@ a:hover {
 } */
 
 .profile-text {
-  margin: 10px;
+  margin: 0px;
 }
 
 .profile-text > h1 {
@@ -179,7 +179,7 @@ a:hover {
 
 .pub {
   font-family: -apple-system, BlinkMacSystemFont, 'Colfax Web', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 540px) {
