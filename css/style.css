@@ -232,10 +232,5 @@ a:hover {
     -webkit-filter: opacity(50%);
     filter: invert(50%);
     -webkit-filter: invert(50%);
-  }
-
-  .separator {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }  
+  } 
 }
